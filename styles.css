@@ -1,0 +1,65 @@
+ body {
+     background-color: #fff;
+ }
+ 
+ .linea {
+     background-color: #1b1919;
+     width: 500px;
+     height: 5px;
+ }
+ 
+ .vs {
+     position: absolute;
+     margin-left: -40px;
+     border-radius: 20px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: #fff;
+     height: 50px;
+     width: 50px;
+     background-color: #252323c7;
+ }
+ 
+ .fondo {
+     background-color: #a8501518;
+     border-radius: 500px;
+ }
+ 
+ .screen {
+     display: none;
+ }
+ 
+ .visible {
+     display: block;
+ }
+ 
+ @media (max-width:512px) {
+     body {
+         background-color: #000;
+     }
+     p {
+         color: #fff;
+     }
+     .grande {
+         width: 300px;
+     }
+     .pokemos {
+         height: 100px;
+         margin-top: -100px;
+         margin-left: -335px;
+     }
+     .cuadro {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         color: #fff;
+         background-color: #1b1919;
+         width: 50px;
+         height: 50px;
+         border-radius: 20px;
+     }
+     .padre {
+         background-color: #0000;
+     }
+ }
